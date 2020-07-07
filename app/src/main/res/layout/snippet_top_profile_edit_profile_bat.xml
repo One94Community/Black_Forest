@@ -1,0 +1,51 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/white_grey_border_bottom">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/profile_ToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_toRightOf="@id/editProfile_back_Arrow"
+                    android:id="@+id/profileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Edit Profile"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+                <ImageView
+                    android:id="@+id/editProfile_back_Arrow"
+                    android:layout_alignParentStart="true"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/icon_arrow_back_24">
+
+                </ImageView>
+                <ImageView
+                    android:id="@+id/saveChange"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/icon_check_24">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+</merge>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Profile.ProfileSettingsActivity">
+
+    <include layout="@layout/layout_center_viewpager" />
+
+    <RelativeLayout
+        android:id="@+id/relLayout_Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Top Section-->
+        <RelativeLayout
+            android:id="@+id/relLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <include layout="@layout/snippet_top_profile_setting_bar" />
+
+        </RelativeLayout>
+
+        <!--Meddle Section-->
+        <RelativeLayout
+            android:id="@+id/relLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/relLayout1"
+            android:layout_marginBottom="50dp">
+
+            <include layout="@layout/layout_center_profile_account_setting_options" />
+
+        </RelativeLayout>
+        <!--Bottom Section-->
+
+        <include layout="@layout/layout_bottom_navigation_view" />
+
+    </RelativeLayout>
+
+</com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "157663996442",
+    "firebase_url": "https://black-forest-a15.firebaseio.com",
+    "project_id": "black-forest-a15",
+    "storage_bucket": "black-forest-a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157663996442:android:6ebd674881a9fb5c1f3fa3",
+        "android_client_info": {
+          "package_name": "com.ingteamsofindia.black_forest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157663996442-cou4pr5eh6od5bns1ims5kir8e6gh5f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6t-wdDpCVRgU2SLOQyIdDIZ1UP8mJF8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157663996442-cou4pr5eh6od5bns1ims5kir8e6gh5f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

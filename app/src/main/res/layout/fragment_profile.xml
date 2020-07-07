@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Profile.ProfileActivity">
+
+
+        <!--*************************_Top Tool Bar_*************************-->
+        <RelativeLayout
+            android:id="@+id/relLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/snippet_top_profile_bar" />
+
+
+
+
+        </RelativeLayout>
+
+
+        <!--Middle Section(Body)-->
+        <RelativeLayout
+            android:id="@+id/relLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relLayout1">
+            <include layout="@layout/layout_center_profile" />
+
+        </RelativeLayout>
+
+        <!--bottom navigation-->
+        <include layout="@layout/layout_bottom_navigation_view" />
+
+        <ProgressBar
+            android:id="@+id/ProfileProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorProgressBar"
+            android:padding="@dimen/_50sdp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/ProfileProgressBar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Please Wait..."
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_17sdp"
+            android:textStyle="bold"
+            android:visibility="gone">
+
+        </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:padding="@dimen/_20sdp"
+            android:id="@+id/AccountSetting_Dmo"
+            android:background="@drawable/white_grey_border_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Settings"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_20sdp">
+
+        </TextView>
+        <ListView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/lvAccountSetting"
+            android:layout_below="@id/AccountSetting_Dmo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </RelativeLayout>
+
+</merge>
