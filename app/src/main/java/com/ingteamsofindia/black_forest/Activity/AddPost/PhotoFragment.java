@@ -54,8 +54,8 @@ public class PhotoFragment extends Fragment {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CAMERA_REQUEST_CODE)
             Log.d(TAG, "onActivityResult: Done taking a photo");
-            Log.d(TAG, "onActivityResult: attempting to navigate to final share screen.");
+        Log.d(TAG, "onActivityResult: attempting to navigate to final share screen.");
 
-            //navigate to the final share screen to publish photo
+        //navigate to the final share screen to publish photo
     }
 }
